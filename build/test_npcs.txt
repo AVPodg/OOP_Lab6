@@ -1,0 +1,3 @@
+Elf Legolas 0 0
+Bandit Goblin 1 1
+Bear Baloo 2 2

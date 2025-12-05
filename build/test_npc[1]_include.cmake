@@ -1,0 +1,5 @@
+if(EXISTS "D:/OOP6/build/test_npc[1]_tests.cmake")
+  include("D:/OOP6/build/test_npc[1]_tests.cmake")
+else()
+  add_test(test_npc_NOT_BUILT test_npc_NOT_BUILT)
+endif()

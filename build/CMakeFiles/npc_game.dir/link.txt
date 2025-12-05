@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\npc_game.dir/objects.a
+D:\mingw64\bin\ar.exe qc CMakeFiles\npc_game.dir/objects.a @CMakeFiles\npc_game.dir\objects1.rsp
+D:\mingw64\bin\c++.exe -Wl,--whole-archive CMakeFiles\npc_game.dir/objects.a -Wl,--no-whole-archive -o npc_game.exe -Wl,--out-implib,libnpc_game.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\npc_game.dir\linkLibs.rsp
